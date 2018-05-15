@@ -5,8 +5,6 @@
     <title></title>
     <!--CSS Link-->
     <link rel="stylesheet" href="css/main_FINCA.css">
-    <!--Animation Link-->
-    <link rel="stylesheet" href="css/animate.css">
     <!--Viewport Meta Tag-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Font Awesome-->
@@ -15,19 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
   </head>
 
-  <body>
-
-    <!-- MOBILE MENUV -->
-
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-    <div class="page1 page">              <!-- Cover image is on this div -->
+  <body class="contactBody">
       <!--- NAV BEGINS -->
       <div class="header">
         <div class="navwrapper">
@@ -71,80 +57,51 @@
               <!--   NAV LIST   -->
             </div>          
             <ul class="navlist">
-              <li><a href="index_FINCA.html" class="active">HOME</a></li>
+             <li><a href="index.html">HOME</a></li>
               <li><a href="experience.html">EXPERIENCE</a></li>
               <li><a href="socialMedia.html">SOCIAL MEDIA</a></li>
               <li><a href="products.html">PRODUCTS</a></li>
-              <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="contact.html" class="active">CONTACT</a></li>
             </ul>
           </div>
         </div>
-
-        <!-- MOBILE NAV BEGINS -->
-       
-        <!-- MOBILE NAV ENDS -->
       </div>
-      <!--- NAV ENDS -->
-
-      <div class="page1content" style='margin-right: 10%; margin-left: 10%;'>
-        <h1>WELCOME</h1>
-        <p class="page1p">
-          We are FINCA, experts in the industry with over a decade of experience. We specialize in boutique style cannabis focusing on quality over quantity, and mastering the craft of Organic methods. FINCA strives to be pesticide and chemical free medicine to ensure a safe quality product.
-        </p>
-      </div>
+  
+    <div class="containerContact">  
+      <form id="contact" action="" method="">
+        <h3>FINCA</h3>
+        <h4>Contact us</h4>
+        <fieldset>
+          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+      </form>
     </div>
-
-    <div class="page2 page">
-      <div class="page2content">
-        <h1>ORIGIN</h1>
-        <p>
-          The term FINCA has roots that anchor far deeper than what some might imagine; it is derived from old Spanish/Latin. Finca means ‘ranch’ or ‘large farm’ when translated from Spanish to English. The inspiration behind the name was sparked by a heavy love for Bolivia, located in South America. Bolivia is covered in a broad range of landscapes, one being a lush Amazon Rainforest, where the botanical world is expressed along with the preservation for natural remedies as opposed to synthetic forms. The term ‘FINCA’ was brought to the table during my study of Quechua, an indigenous language native to the country of Bolivia.
-        </p>
-      </div>    
-    </div>
-
-    <div class="page3 page">
-      <div class="page3content">
-        <h1>VISION</h1>
-        <p>
-          Sourcing clean, organic/veganic, ethically grown cannabis has always been difficult and somewhat troubling until now. Finca provides well over a decade of expertise in the industry, specializing in cultivating the finest flowers available in the market to date. Along with boutique flower/cannabis, we offer solvent/solventless extracts of the highest quality and much more. The Finca families passion for providing the community with the highest grade products is second to none.
-        </p>
-      </div>    
-    </div>
-
-    <div class="page4 page">
-      <div class="page4content">
-        <h1>COMMUNITY</h1>
-        <p>
-          Finca has a huge driving force for community outreach/service, giving back to the community through volunteer service, hosting and providing educational workshops along with Q&A’s for the amazing veterans, medical patients, senior citizens, and anyone who are interested in furthering their education in regards to cannabis, all while strengthening and building an amazing network of community members with those throughout the world alike.
-        </p>
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-
-    <footer>
-      <a href="https://www.instagram.com/fincagrow/">Instagram</a>
-      <a href="https://twitter.com/fincagrow">Twitter</a>
-      <a href="fincagrow@gmail.com">Gmail</a>
-    </footer>
-
-     
 
     <!-- Javascript -->
-
-    <script>
-      function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-              x.className += " responsive";
-          } else {
-              x.className = "topnav";
-          }
-        }
-    </script>
   </body>
 </html>
 
- 
+
+
+
+
+
+
+
+
 
